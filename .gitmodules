@@ -1,0 +1,3 @@
+[submodule "meld"]
+	path = meld
+	url = git+ssh://git@github.com/zanders3/meld.git
