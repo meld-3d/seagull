@@ -25,23 +25,24 @@ void main()
 		accumulator += frameTime;
 		while (accumulator >= dt)
 		{
+			float delta = dt * 4.0f;
 			if (Input.IsKeyDown(Keys.A))
-				camera.Move(dt, 0.0f);
+				camera.Move(delta, 0.0f);
 			if (Input.IsKeyDown(Keys.D))
-				camera.Move(-dt, 0.0f);
+				camera.Move(-delta, 0.0f);
 			if (Input.IsKeyDown(Keys.W))
-				camera.Move(0.0f, dt);
+				camera.Move(0.0f, delta);
 			if (Input.IsKeyDown(Keys.S))
-				camera.Move(0.0f, -dt);
+				camera.Move(0.0f, -delta);
 
 			if (Input.IsKeyDown(Keys.E))
-				camera.Look(dt*2.0, 0.0f);
+				camera.Look(delta*2.0, 0.0f);
 			if (Input.IsKeyDown(Keys.Q))
-				camera.Look(-dt*2.0, 0.0f);
+				camera.Look(-delta*2.0, 0.0f);
 			if (Input.IsKeyDown(Keys.R))
-				camera.Look(0.0f, dt);
+				camera.Look(0.0f, delta);
 			if (Input.IsKeyDown(Keys.F))
-				camera.Look(0.0f, -dt);
+				camera.Look(0.0f, -delta);
 
 			accumulator -= dt;
 		}
