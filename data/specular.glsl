@@ -35,6 +35,6 @@ void main(void)
 	vec3 h = normalize(vec3(1.0f, 0.0f, 0.0f) + camView);
 	float spec = max(pow(dot(h, normal), specAmount), 0.0f);*/
 
-	float light = dot(Normal, normalize(vec3(0.5,0.5,0.5)));
-	FragColor = vec4(light, light, light, 1.0);//vec4(ambientColor + diffuse * lightColor + vec3(spec, spec, spec), 1.0f);
+	float light = dot(Normal, normalize(vec3(-0.5,0.5,-0.5)));
+	FragColor = vec4(ambientColor * light, 1.0);//vec4(ambientColor + diffuse * lightColor + vec3(spec, spec, spec), 1.0f);
 }

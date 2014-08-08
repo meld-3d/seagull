@@ -6,11 +6,17 @@ void main()
 {
 	Window window = new Window("Hello, world!", 640, 480);
 	
-	Mesh mesh = Mesh.CreateCube();
 	Camera camera = new Camera(640, 480);
+
 	Shader shader = new Shader("data/specular.glsl");
-	shader.SetParameter("world", mat4.identity);
-	shader.Bind();
+	new GameObject().Add!MeshRenderer(
+		Mesh.CreateCube(), 
+		new Material(shader).SetParameter("ambientColor", vec3(1.0f, 0.0f, 0.0f))
+	).transform.position = vec3(2.0f, 0.0f, 20.0f);
+	new GameObject().Add!MeshRenderer(
+		Mesh.CreateCylinder(20), 
+		new Material(shader).SetParameter("ambientColor", vec3(0.0f, 0.0f, 1.0f))
+	).transform.position = vec3(-2.0f, 0.0f, 20.0f);
 
 	double currentTime = window.Time();
 	double accumulator = 0.0;
@@ -52,11 +58,12 @@ void main()
 
 		shader.SetParameter("viewProj", camera.viewProj);
 
-		shader.SetParameter("world", mat4.translate(vec3(2.0f, 0.0f, 20.0f)));
+		MeshRenderer.Draw();
+		/*shader.SetParameter("world", mat4.translate(vec3(2.0f, 0.0f, 20.0f)));
 		mesh.Draw();
 
 		shader.SetParameter("world", mat4.translate(vec3(-2.0f, 0.0f, 20.0f)));
-		mesh.Draw();
+		mesh.Draw();*/
 
 		window.Swap();
 	}
