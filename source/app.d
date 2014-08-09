@@ -17,6 +17,10 @@ void main()
 		Mesh.CreateCylinder(20), 
 		new Material(shader).SetParameter("ambientColor", vec3(0.0f, 0.0f, 1.0f))
 	).transform.position = vec3(-2.0f, 0.0f, 20.0f);
+	new GameObject().Add!MeshRenderer(
+		Mesh.LoadMesh("data/mayor.obj"),
+		new Material(shader).SetParameter("ambientColor", vec3(1.0f, 1.0f, 1.0f))
+	).transform.position = vec3(0.0f, 0.0f, 20.0f);
 
 	double currentTime = window.Time();
 	double accumulator = 0.0;
@@ -59,11 +63,6 @@ void main()
 		shader.SetParameter("viewProj", camera.viewProj);
 
 		MeshRenderer.Draw();
-		/*shader.SetParameter("world", mat4.translate(vec3(2.0f, 0.0f, 20.0f)));
-		mesh.Draw();
-
-		shader.SetParameter("world", mat4.translate(vec3(-2.0f, 0.0f, 20.0f)));
-		mesh.Draw();*/
 
 		window.Swap();
 	}
