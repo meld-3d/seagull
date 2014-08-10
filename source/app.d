@@ -26,6 +26,12 @@ void main()
 	double accumulator = 0.0;
 	double dt = 1.0 / 60.0;
 
+	void test(string file)
+	{
+		writeln("Change: " ~ file);
+	}
+	FileWatcher.RegisterCallback("data", &test);
+
 	while (window.IsRunning())
 	{
 		double newTime = window.Time();
@@ -63,6 +69,8 @@ void main()
 		shader.SetParameter("viewProj", camera.viewProj);
 
 		MeshRenderer.Draw();
+		
+		FileWatcher.Update();
 
 		window.Swap();
 	}
