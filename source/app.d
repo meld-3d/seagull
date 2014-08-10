@@ -12,13 +12,13 @@ void main()
 	new GameObject().Add!MeshRenderer(
 		Mesh.CreateCube(), 
 		new Material(shader).SetParameter("ambientColor", vec3(1.0f, 0.0f, 0.0f))
-	).transform.position = vec3(2.0f, 0.0f, 20.0f);
+	).transform.position = vec3(5.0f, 0.0f, 20.0f);
 	new GameObject().Add!MeshRenderer(
 		Mesh.CreateCylinder(20), 
 		new Material(shader).SetParameter("ambientColor", vec3(0.0f, 0.0f, 1.0f))
-	).transform.position = vec3(-2.0f, 0.0f, 20.0f);
+	).transform.position = vec3(-5.0f, 0.0f, 20.0f);
 	new GameObject().Add!MeshRenderer(
-		Mesh.LoadMesh("data/mayor.obj"),
+		Mesh.LoadMesh("data/seagull.obj"),
 		new Material(shader).SetParameter("ambientColor", vec3(1.0f, 1.0f, 1.0f))
 	).transform.position = vec3(0.0f, 0.0f, 20.0f);
 
