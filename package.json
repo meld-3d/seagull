@@ -4,8 +4,6 @@
 	"copyright": "Copyright © 2014, Alex Parker",
 	"authors": ["Alex Parker"],
 	"dependencies": {
-		"meld": {
-			"version": "~master"
-		}
+		"meld": "~master"
 	}
 }
