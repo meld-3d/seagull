@@ -5,5 +5,6 @@
 	"authors": ["Alex Parker"],
 	"dependencies": {
 		"meld": "~master"
-	}
+	},
+	"postBuildCommands-osx": ["./mcb"]
 }
