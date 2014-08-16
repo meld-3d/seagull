@@ -3,8 +3,10 @@
 
 in vec3 inVertex;
 in vec3 inNormal;
+in vec2 inTex;
 
 out vec3 Normal;
+out vec2 Tex;
 out vec3 WorldPos;
 
 uniform mat4 world;
@@ -13,7 +15,9 @@ uniform mat4 viewProj;
 void main(void)
 {
 	Normal = inNormal;
+	Tex = inTex;
 	gl_Position = viewProj * world * vec4(inVertex, 1.0);
+	WorldPos = mat3(world) * inVertex;
 }
 
 #pragma fragment
@@ -21,20 +25,23 @@ void main(void)
 
 out vec4 FragColor;
 in vec3 Normal;
+in vec2 Tex;
 in vec3 WorldPos;
 
+uniform vec3 ambientColor;
+uniform sampler2D texture;
 uniform vec3 camPos;
-uniform vec3 ambientColor, lightColor;
-uniform float specAmount;
 
 void main(void)
 {
-	/*vec3 normal = normalize(Normal);
+	float specAmount = 1.0f;
+
+	vec3 normal = normalize(Normal);
 	vec3 camView = normalize(camPos - WorldPos);
 	float diffuse = clamp(normal.x, 0.0f, 1.0f);
 	vec3 h = normalize(vec3(1.0f, 0.0f, 0.0f) + camView);
-	float spec = max(pow(dot(h, normal), specAmount), 0.0f);*/
+	float spec = max(pow(dot(h, normal), specAmount), 0.0f);
 
-	float light = dot(Normal, normalize(vec3(-0.5,0.5,-0.5)));
-	FragColor = vec4(ambientColor * light, 1.0);//vec4(ambientColor + diffuse * lightColor + vec3(spec, spec, spec), 1.0f);
+	float light = dot(normalize(Normal), normalize(vec3(-0.5,0.5,-0.5)));
+	FragColor = vec4(texture2D(texture, Tex).xyz * light, 1.0);
 }
