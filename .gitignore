@@ -1,4 +1,3 @@
-seagull.exe
-seagull
 package.userprefs
 .dub/**
+bin/**

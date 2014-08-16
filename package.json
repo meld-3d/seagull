@@ -6,5 +6,5 @@
 	"dependencies": {
 		"meld": "~master"
 	},
-	"postBuildCommands-osx": ["./mcb"]
+	"targetPath": "bin"
 }

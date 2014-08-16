@@ -18,7 +18,7 @@ void main()
 		new Material(shader).SetParameter("ambientColor", vec3(0.0f, 0.0f, 1.0f))
 	).transform.position = vec3(-5.0f, 0.0f, 20.0f);
 	new GameObject().Add!MeshRenderer(
-		Mesh.LoadMesh("data/seagull.obj"),
+		Mesh.LoadMesh("data/seagull.mdl"),
 		new Material(shader).SetParameter("ambientColor", vec3(1.0f, 1.0f, 1.0f))
 	).transform.position = vec3(0.0f, 0.0f, 20.0f);
 

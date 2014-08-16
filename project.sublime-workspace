@@ -1,0 +1,434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"output",
+				"outputMesh	variable"
+			],
+			[
+				"mesh",
+				"meshes	variable"
+			],
+			[
+				"outpu",
+				"outputMesh	variable"
+			],
+			[
+				"BuildM",
+				"BuildModel	function"
+			],
+			[
+				"wat",
+				"watcherList	variable"
+			],
+			[
+				"Materi",
+				"MaterialProperty	class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Alex/Code/dlang/meld/package.json",
+			"settings":
+			{
+				"buffer_size": 974,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/Code/dlang/meld/contentpipeline/source/modelImporter.d",
+			"settings":
+			{
+				"buffer_size": 2100,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/D/Dub.sublime-build",
+			"settings":
+			{
+				"buffer_size": 116,
+				"line_ending": "Windows",
+				"name": "untitled.sublime-build"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/D/D.sublime-build",
+			"settings":
+			{
+				"buffer_size": 93,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/Code/dlang/meld/engine/source/meld/mesh.d",
+			"settings":
+			{
+				"buffer_size": 11750,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/D/Dub.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"dkit",
+				"DKit: Restart DCD Autocompletion Server"
+			],
+			[
+				"packag",
+				"DKit: List Installed DUB Packages"
+			],
+			[
+				"ssc",
+				"Set Syntax: C"
+			],
+			[
+				"ssd",
+				"Set Syntax: D"
+			],
+			[
+				"update",
+				"DKit: Update Import Paths"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alex/Code/dlang/meld/data/seagull.mdl",
+		"/C/Users/Alex/Code/dlang/meld/engine/source/meld/vertex.d",
+		"/C/Users/Alex/Code/dlang/meld/contentpipeline/source/app.d",
+		"/C/Users/Alex/Code/dlang/meld/contentpipeline/source/modelImporter.d",
+		"/C/Users/Alex/Code/dlang/meld/engine/source/meld/gameObject.d",
+		"/C/Users/Alex/Code/dlang/meld/engine/source/meld/mesh.d",
+		"/C/Users/Alex/Code/dlang/meld/engine/source/meld/shader.d",
+		"/C/Users/Alex/Code/dlang/meld/.gitignore",
+		"/C/Users/Alex/Code/dlang/meld/package.json",
+		"/C/Users/Alex/Code/dlang/seagull/package.json",
+		"/C/Users/Alex/Code/dlang/meld/contentpipeline/source/modelimporter.d",
+		"/C/Users/Alex/Code/dlang/meld/contentpipeline/package.json",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/content/dcb.d",
+		"/C/Users/Alex/Code/dlang/seagull/source/app.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/shader.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/mesh.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/package.d",
+		"/C/Users/Alex/Code/dlang/seagull/data/specular.glsl",
+		"/C/Users/Alex/Code/dlang/seagull/data/seagull.mtl",
+		"/C/Users/Alex/Code/dlang/seagull/data/seagull.obj",
+		"/C/Users/Alex/Code/dlang/meld/contentpipeline/meld/app.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/fileWatcher.d",
+		"/C/Users/Alex/Code/dlang/seagull/data/mayor.obj",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/maths.d",
+		"/C/Users/Alex/Desktop/Mayor.obj",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/gameObject.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/material.d",
+		"/C/Users/Alex/Desktop/Mayor.FBX",
+		"/C/Users/Alex/AppData/Roaming/dub/packages/derelict-glfw3-master/source/derelict/glfw3/glfw3.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/window.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/input.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/camera.d",
+		"/C/Users/Alex/Code/dlang/meld/source/meld/app.d",
+		"/C/Users/Alex/Code/dlang/seagull/.gitignore",
+		"/C/Users/Alex/Code/dlang/meld/source/window.d",
+		"/C/Users/Alex/Code/dlang/meld/source/app.d",
+		"/C/Users/Alex/Code/dlang/meld/source/package.d",
+		"/C/Users/Alex/Code/dlang/seagull/meld/package.json",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/DKit/DKit.sublime-settings",
+		"/C/Users/Alex/Code/dlang/meld/.dub/build/stb_image.lib"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"aiPostProcessSteps.",
+			"aiProcess_",
+			"i",
+			"V",
+			"Vertex",
+			"ai",
+			"	",
+			";",
+			" ",
+			"source",
+			"ContentPipelineBuildMethod",
+			"contentpipeline",
+			"m_buffer",
+			"m_filter",
+			"SetDllDirectoryA",
+			"CP_ACP",
+			"formatLastError",
+			"f ",
+			" 3379/",
+			"3379/",
+			"/3380",
+			"o ",
+			"3379",
+			"numVerts",
+			"File",
+			"_instanceID",
+			"instanceID",
+			"dt",
+			";\n",
+			"window",
+			"x",
+			"other",
+			" == GLFW_PRESS",
+			"glfwGetKey(window, GLFW_KEY_",
+			"GLFW_KEY_"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"aiPostProcessSteps.",
+			"m_window",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Alex/Code/dlang/meld/package.json",
+					"settings":
+					{
+						"buffer_size": 974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Alex/Code/dlang/meld/contentpipeline/source/modelImporter.d",
+					"settings":
+					{
+						"buffer_size": 2100,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1493,
+								1493
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 565.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/D/Dub.sublime-build",
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								112,
+								112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/D/D.sublime-build",
+					"settings":
+					{
+						"buffer_size": 93,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Alex/Code/dlang/meld/engine/source/meld/mesh.d",
+					"settings":
+					{
+						"buffer_size": 11750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/D/D.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 277.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true
+}
