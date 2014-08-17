@@ -31,5 +31,5 @@ in vec3 WorldPos;
 void main(void)
 {
 	float light = dot(normalize(Normal), normalize(vec3(-0.5,0.5,-0.5)));
-	FragColor = vec4(light.xxx, 1.0);
+	FragColor = vec4(light, light, light, 1.0);
 }

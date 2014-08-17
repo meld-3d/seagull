@@ -29,7 +29,7 @@ in vec2 Tex;
 in vec3 WorldPos;
 
 uniform vec3 ambientColor;
-uniform sampler2D texture;
+uniform sampler2D diffuseTex;
 uniform vec3 camPos;
 
 void main(void)
@@ -43,5 +43,5 @@ void main(void)
 	float spec = max(pow(dot(h, normal), specAmount), 0.0f);
 
 	float light = dot(normalize(Normal), normalize(vec3(-0.5,0.5,-0.5)));
-	FragColor = vec4(texture2D(texture, Tex).xyz * light, 1.0);
+	FragColor = vec4(texture(diffuseTex, Tex).xyz * light, 1.0);
 }

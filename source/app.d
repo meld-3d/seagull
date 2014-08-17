@@ -17,7 +17,7 @@ void main()
 		Mesh.LoadMesh("data/seagull.mdl"),
 		new Material(Shader.Find("data/seagull.glsl"))
 			.SetParameter("ambientColor", vec3(1.0f, 1.0f, 1.0f))
-			.SetParameter("texture", new Texture("data/seagull.png"))
+			.SetParameter("diffuseTex", new Texture("data/seagull.png"))
 	);
 	seagull.transform.transform = mat4.basis(vec3(0.0f, 2.0f, 20.0f), vec3(-1.0f, 0.0f, 0.0f), vec3.up);
 	
